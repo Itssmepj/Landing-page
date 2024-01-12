@@ -1,0 +1,182 @@
+/* Larger screens */
+@media only screen and (min-width: 992px) {
+    #heading {
+        margin: 190px;
+    }
+
+    .text {
+        font-size: 17px;
+        margin-bottom: 26px;
+    }
+
+    .deal {
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+
+    .launch-time {
+        width: 419px;
+    }
+
+    .launch-time div p {
+        font-size: 60px;
+        margin-bottom: -7px;
+    }
+
+    .feature-text {
+        margin-bottom: 15px; 
+    }
+
+    #footer {
+        padding: 40px;
+    }
+}
+
+
+/* Medium screens */
+@media only screen and (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 33px
+    }
+
+    #heading {
+        margin: 50px 20px;
+        text-align: center;
+        margin-top: 61px;
+    }
+
+    .main-heading {
+        font-size: 61px;
+        margin-top: 35px;
+        padding-bottom: 32px;
+    }
+
+    .text {
+        font-size: 19px;
+        margin-bottom: 22px;
+    }
+
+    .deal {
+        font-size: 23px;
+        margin-bottom: 32px;
+    }
+
+    .launch-time {
+        width: 80%;
+        max-width: 406px;
+        margin: 29px 229px 20px;
+    }
+
+    .launch-time div p {
+        font-size: 36px;
+    }
+
+    .btn{
+        margin-top: 40px;
+    }
+
+    .edit{
+        margin-left: 0px;
+    }
+
+    .feature-text {
+        margin-bottom: 10px;
+    }
+
+    .col-lg-4{
+        margin-top: -93px;
+        margin-bottom: -140px;
+    }
+
+    .carousel-item {
+        text-align: center;
+    }
+
+    .testimonial-image{
+        margin-left: 0px;
+    }
+
+    #footer {
+        margin-left: -479px;
+    }
+}
+
+/* Small screens */
+@media only screen and (max-width: 767px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px
+    }
+
+    #heading {
+        margin: 50px 20px;
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        margin-top: -10px;
+        padding-bottom: 8px;
+    }
+
+    .text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .deal {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .launch-time {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto 15px;
+    }
+
+    .launch-time div p {
+        font-size: 25px;
+        margin-bottom: -5px;
+    }
+
+    .feature-text {
+        margin-bottom: 5px;
+    }
+
+
+    .row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .features-emoji {
+        padding-top: 0;
+        font-size: 30px;
+    }
+
+    .feature-text {
+        margin-bottom: 10px;
+    }
+
+    .col-lg-4{
+        margin-top: -93px;
+        margin-bottom: -140px;
+    }
+
+    .carousel-item {
+        text-align: center;
+    }
+
+    .testimonial-image{
+        margin-left: 0px;
+    }
+
+    #footer {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
